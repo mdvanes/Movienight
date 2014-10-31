@@ -21,3 +21,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.landing {
+    max-width: 400px;
+    text-align: center;
+    width: 100%;
+
+    img {
+        width: 30%;
+    }
+}
