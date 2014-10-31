@@ -37,3 +37,12 @@ if fails:
 
 * adb devices -l (should list the device)
 * install driver from emulated CD drive when plugging in the phone (I used Windows 7 64 bit for Windows 8.1)
+
+
+Using grid: http://learn.ionicframework.com/formulas/using-the-grid/
+
+Compile to APK: http://ionicframework.com/docs/guide/publishing.html
+
+* change android:debuggable to false in AndroidManifest.xml
+* run ```cordova build --release android```
+* result in \Movienight\platforms\android\ant-build\CordovaApp-release-unsigned.apk
